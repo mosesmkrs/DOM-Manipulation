@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    background: url("img/timer.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container {
+    background-color: #fff;
+    width: 60%;
+    height: 200px;
+   box-shadow: 0 0 3px black;
+   border-radius: 15px;
+}
+ #timer {
+    font-size: 72px;
+    text-align: center;
+    width: 100%;
+    margin: 8px auto;
+    
+ }
+
+ .buttons {
+    text-align: center;
+    margin-top: 40px;
+ }
+button {
+     margin: 0 10px;
+     border: none;
+ }
+ button i{
+    font-size: 2rem;
+    padding: 10px;
+    color: #fff;
+ }
+
+ #play{
+    background-color: green;
+ }
+ #pause{
+    background-color: orange;
+ }
+ #reset{
+    background-color: red;
+ }
